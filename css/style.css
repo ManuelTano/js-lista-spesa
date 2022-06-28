@@ -1,0 +1,18 @@
+ul {
+    list-style-type: none;
+    position: absolute;
+    top: 34%;
+    left: 17%;
+    line-height: 40px;
+    font-weight: bold;
+    
+}
+
+.col-5 {
+    position: relative;
+}
+
+img {
+
+    width: 100%;
+}
