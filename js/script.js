@@ -4,8 +4,11 @@ let listItems = '';
 
 const shop = document.getElementById('lista');
 
-for (let i = 0; i < shopItems.length; i++) {
+let i = 0; 
+
+while (i < shopItems.length) {
     listItems += `<li>${shopItems[i]}</li>`;
+    i++;
 }
 
 shop.innerHTML = listItems;
